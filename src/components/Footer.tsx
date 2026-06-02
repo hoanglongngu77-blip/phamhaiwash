@@ -94,7 +94,15 @@ export default function Footer() {
                 <Phone className="w-4 h-4 flex-shrink-0 text-accent" />
                 <a href={`tel:${SOCIAL_LINKS.phone2}`} className="hover:text-text-main transition-colors">0899 829 738</a>
               </li>
-              <li className="flex items-start gap-3 text-text-muted">
+              <li className="flex items-center gap-3 text-text-muted">
+                <Facebook className="w-4 h-4 flex-shrink-0 text-[#1877F2]" />
+                <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noreferrer" className="hover:text-text-main transition-colors">Facebook Cá Nhân</a>
+              </li>
+              <li className="flex items-center gap-3 text-text-muted">
+                 <svg className="w-4 h-4 flex-shrink-0 text-white fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.24-2.61.94-5.26 2.95-6.84 1.75-1.38 4.15-1.92 6.36-1.31v4.11c-1-.28-2.12-.2-3.03.26-1.07.56-1.77 1.63-1.85 2.82-.09 1.25.43 2.5 1.34 3.28 1.07.9 2.64 1.14 3.97.63 1.24-.48 2.12-1.57 2.36-2.87.09-.52.12-1.05.12-1.58V.02z"/></svg>
+                 <a href={SOCIAL_LINKS.tiktok} target="_blank" rel="noreferrer" className="hover:text-text-main transition-colors">TikTok: @ruaxedetailing</a>
+              </li>
+              <li className="flex items-start gap-3 text-text-muted mt-4">
                 <MapPin className="w-4 h-4 flex-shrink-0 text-accent mt-0.5" />
                 <span>Hoạt động: 14:30 – 17:30<br/>Hàng Tuần</span>
               </li>
