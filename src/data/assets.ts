@@ -19,7 +19,7 @@ export const assets = {
     { src: '/service-polish-01.jpg', label: 'Dưỡng Nhựa, Làm Bóng', category: 'rua-xe' },
     { src: '/gallery-bike-04.jpg', label: 'Kiểm Tra Sên', category: 've-sinh-sen' },
     { src: '/hero-main-bike.jpg', label: 'Full Detailing', category: 'hoan-thien' },
-    { src: '/hero-main-bike.jpg', label: 'Sạch Bóng Từng Chi Tiết', category: 'hoan-thien' },
+    { src: '/service-tire-cleaning.jpg', label: 'Sạch Bóng Từng Chi Tiết', category: 'hoan-thien' },
     { src: '/gallery-bike-07.jpg', label: 'Sẵn Sàng Bàn Giao', category: 'hoan-thien' }
   ],
   products: {
