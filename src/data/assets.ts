@@ -20,7 +20,7 @@ export const assets = {
     { src: '/after-chain.jpg', label: 'Kiểm Tra Sên', category: 've-sinh-sen' },
     { src: '/hero-main-bike.jpg', label: 'Full Detailing', category: 'hoan-thien' },
     { src: '/service-tire-cleaning.jpg', label: 'Sạch Bóng Từng Chi Tiết', category: 'hoan-thien' },
-    { src: '/gallery-bike-07.jpg', label: 'Sẵn Sàng Bàn Giao', category: 'hoan-thien' }
+    { src: '/service-tire-cleaning-01.jpg', label: 'Sẵn Sàng Bàn Giao', category: 'hoan-thien' }
   ],
   products: {
     motul: '/service-oil-change-01.jpg', 
