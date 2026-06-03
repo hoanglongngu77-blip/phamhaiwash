@@ -8,7 +8,7 @@ const pairs = [
   {
     title: 'Vệ Sinh Sên & Lốc Máy',
     before: '/before-chain.jpg',
-    after: '/after-chain.jpg.jpg',
+    after: '/service-chain-clean-01.jpg.jpg',
   },
   {
     title: 'Phục Hồi Dàn Nhám',
