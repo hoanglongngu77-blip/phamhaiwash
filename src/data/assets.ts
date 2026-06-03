@@ -5,9 +5,9 @@ export const assets = {
     basicWash: '/service-basic-wash-01.jpg',
     chainClean: '/service-chain-clean-01.jpg',
     oilChange: '/service-oil-change-01.jpg',
-    tireCleaning: '/service-tire-cleaning.jpg',
-    detailingEngine: '/gallery-finished-bike-01.jpg',
-    premiumDetailing: '/hero-main-bike.jpg',
+    tireCleaning: '/gallery-finished-bike-01.jpg',
+    detailingEngine: '/hero-main-bike.jpg',
+    premiumDetailing: '/service-tire-cleaning.jpg',
   },
   gallery: [
     { src: '/gallery-bike-01.jpg', label: 'Rửa Xe Cẩn Thận', category: 'rua-xe' },
