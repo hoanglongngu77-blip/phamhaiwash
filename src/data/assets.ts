@@ -17,7 +17,7 @@ export const assets = {
     { src: '/gallery-bike-03.jpg', label: 'Độ Bóng Xuất Sắc', category: 'hoan-thien' },
     { src: '/service-oil-change-01.jpg', label: 'Thay Nhớt Chính Hãng', category: 'thay-nhot' },
     { src: '/service-polish-01.jpg', label: 'Dưỡng Nhựa, Làm Bóng', category: 'rua-xe' },
-    { src: '/gallery-bike-04.jpg', label: 'Kiểm Tra Sên', category: 've-sinh-sen' },
+    { src: '/before-chain.jpg', label: 'Kiểm Tra Sên', category: 've-sinh-sen' },
     { src: '/hero-main-bike.jpg', label: 'Full Detailing', category: 'hoan-thien' },
     { src: '/service-tire-cleaning.jpg', label: 'Sạch Bóng Từng Chi Tiết', category: 'hoan-thien' },
     { src: '/gallery-bike-07.jpg', label: 'Sẵn Sàng Bàn Giao', category: 'hoan-thien' }
