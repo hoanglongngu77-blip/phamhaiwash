@@ -6,7 +6,7 @@ export const assets = {
     chainClean: '/service-chain-clean-01.jpg',
     oilChange: '/service-oil-change-01.jpg',
     tireCleaning: '/gallery-finished-bike-01.jpg',
-    detailingEngine: '/hero-main-bike.jpg',
+    detailingEngine: '/gallery-airblade-01.jpg',
     premiumDetailing: '/service-tire-cleaning.jpg',
   },
   gallery: [
