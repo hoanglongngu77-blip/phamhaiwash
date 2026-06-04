@@ -53,7 +53,7 @@ export default function Footer() {
                 <img 
                   src={assets.logo} 
                   alt="Motor Wash Pham Hai Logo" 
-                  className="w-full h-full object-cover scale-[1.4]" 
+                  className="w-full h-full object-cover scale-[1.38]" 
                 />
               </div>
               <span className="font-heading font-bold text-xl tracking-wider text-text-main uppercase">
