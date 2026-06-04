@@ -19,8 +19,8 @@ const showcases = [
     img: assets.gallery[7].src
   },
   {
-    title: 'Xe Phân Khúc Cao – Full Detail',
-    price: 'Rửa Full Chi Tiết · 179K',
+    title: 'Chăm Sóc Xe Chuyên Sâu',
+    price: 'Combo Rửa & Dưỡng Toàn Diện · 179K',
     img: assets.gallery[2].src
   }
 ];
