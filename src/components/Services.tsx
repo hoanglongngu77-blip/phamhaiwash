@@ -47,9 +47,9 @@ const services = [
   {
     icon: CheckCircle,
     title: 'Rửa Full Chi Tiết',
-    desc: 'Vệ sinh sườn xe, dây điện, dàn áo trong ngoài, lốc máy, nhông sên đĩa. 1-2 ngày.',
-    price: '159K+',
-    unit: '/ lần',
+    desc: 'Combo chăm sóc toàn diện: Làm sạch sâu bề mặt kết hợp dưỡng phục hồi nhựa bóng và nhựa nhám, mang lại vẻ đẹp như mới.',
+    price: '159K - 179K',
+    unit: '(tùy dòng xe)',
     img: assets.services.premiumDetailing
   }
 ];
