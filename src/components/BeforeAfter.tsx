@@ -7,8 +7,8 @@ import { assets } from '../data/assets';
 const pairs = [
   {
     title: 'Vệ Sinh Sên & Lốc Máy',
-    before: '/after-chain.jpg',
-    after: '/before-chain.jpg',
+    before: '/before-chain.jpg',
+    after: '/after-chain.jpg',
   },
   {
     title: 'Phục Hồi Dàn Nhám',
