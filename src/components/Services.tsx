@@ -46,7 +46,7 @@ const services = [
   },
   {
     icon: CheckCircle,
-    title: 'Rửa Full Chi Tiết',
+    title: 'Combo Toàn Diện',
     desc: 'Combo chăm sóc toàn diện: Làm sạch sâu bề mặt kết hợp dưỡng phục hồi nhựa bóng và nhựa nhám, mang lại vẻ đẹp như mới.',
     price: '159K - 179K',
     unit: '(tùy dòng xe)',
