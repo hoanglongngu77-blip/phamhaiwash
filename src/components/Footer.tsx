@@ -49,11 +49,13 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
           <div className="md:col-span-5">
             <a href="#" className="flex items-center gap-3 mb-6 no-underline">
-              <img 
-                src={assets.logo} 
-                alt="Motor Wash Pham Hai Logo" 
-                className="w-12 h-12 rounded-full object-cover border-[1.5px] border-accent" 
-              />
+              <div className="w-12 h-12 rounded-full border-[1.5px] border-accent overflow-hidden flex items-center justify-center shrink-0">
+                <img 
+                  src={assets.logo} 
+                  alt="Motor Wash Pham Hai Logo" 
+                  className="w-full h-full object-cover scale-[1.45]" 
+                />
+              </div>
               <span className="font-heading font-bold text-xl tracking-wider text-text-main uppercase">
                 Pham Hai Wash
               </span>
