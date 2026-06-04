@@ -11,12 +11,12 @@ const showcases = [
   {
     title: 'Honda Vario – Sau Dưỡng Bóng',
     price: 'Combo Sạch – Bóng – Dưỡng · 69K',
-    img: assets.gallery[6].src
+    img: '/gallery-vario.jpg'
   },
   {
     title: 'Rửa Xe + Vệ Sinh Sên',
     price: 'Combo Sên Sạch Chạy Êm · 79K',
-    img: assets.gallery[7].src
+    img: '/after-chain.jpg'
   },
   {
     title: 'Chăm Sóc Xe Chuyên Sâu',
