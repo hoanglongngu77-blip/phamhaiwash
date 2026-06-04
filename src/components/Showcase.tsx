@@ -21,7 +21,7 @@ const showcases = [
   {
     title: 'Chăm Sóc Xe Chuyên Sâu',
     price: 'Combo Rửa & Dưỡng Toàn Diện · 179K',
-    img: assets.gallery[2].src
+    img: '/gallery-bike-02.jpg'
   }
 ];
 
