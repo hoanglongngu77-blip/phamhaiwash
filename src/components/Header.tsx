@@ -17,11 +17,13 @@ export default function Header() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${scrolled ? 'glass-nav border-b border-border-main' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 no-underline group">
-          <img 
-            src={assets.logo} 
-            alt="Motor Wash Pham Hai" 
-            className="w-11 h-11 rounded-full object-cover border-[1.5px] border-accent group-hover:scale-105 transition-transform" 
-          />
+          <div className="w-11 h-11 rounded-full border-[1.5px] border-accent overflow-hidden flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+            <img 
+              src={assets.logo} 
+              alt="Motor Wash Pham Hai" 
+              className="w-full h-full object-cover scale-[1.45]" 
+            />
+          </div>
           <span className="font-heading font-bold text-xl tracking-wider text-text-main uppercase">
             Pham Hai Wash
           </span>
