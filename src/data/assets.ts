@@ -1,5 +1,5 @@
 export const assets = {
-  logo: '/logo-primary-01.jpg.jpg',
+  logo: '/logo-primary-01.jpg',
   heroBg: '/hero-finished-bike.jpg',
   services: {
     basicWash: '/service-basic-wash-01.jpg',
