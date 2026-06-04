@@ -12,8 +12,8 @@ const pairs = [
   },
   {
     title: 'Phục Hồi Dàn Nhám',
-    before: '/after-engine.jpg',
-    after: '/before-engine.jpg',
+    before: '/before-engine.jpg',
+    after: '/after-engine.jpg',
   }
 ];
 
