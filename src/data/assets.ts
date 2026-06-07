@@ -11,6 +11,7 @@ export const assets = {
   },
   gallery: [
     { src: '/gallery-bike-01.jpg', label: 'Rửa Xe Cẩn Thận', category: 'rua-xe' },
+    { src: '/1service-basic-wash.jpg', label: 'Dung Dịch Detailing', category: 'rua-xe' },
     { src: '/service-detailing-engine(2).jpg', label: 'Phủ Bọt Tuyết', category: 'rua-xe' },
     { src: '/gallery-bike-02.jpg', label: 'Hoàn Thiện Tuyệt Đối', category: 'hoan-thien' },
     { src: '/gallery-bike-06.jpg', label: 'Bảo Dưỡng Hệ Thống Sên', category: 've-sinh-sen' },
