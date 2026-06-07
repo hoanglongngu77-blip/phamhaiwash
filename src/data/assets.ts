@@ -7,7 +7,7 @@ export const assets = {
     oilChange: '/service-oil-change-01.jpg',
     tireCleaning: '/gallery-finished-bike-01.jpg',
     detailingEngine: '/hero-main-bike.jpg',
-    premiumDetailing: '/service-tire-cleaning.jpg',
+    premiumDetailing: '/gallery-bike-02',
   },
   gallery: [
     { src: '/gallery-bike-01.jpg', label: 'Rửa Xe Cẩn Thận', category: 'rua-xe' },
