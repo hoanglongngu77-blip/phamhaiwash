@@ -11,8 +11,8 @@ export const assets = {
   },
   gallery: [
     { src: '/gallery-bike-02.jpg', label: 'Hoàn Thiện Tuyệt Đối', category: 'hoan-thien' },
-    { src: '/gallery-bike-01.jpg', label: 'Rửa Xe Cẩn Thận', category: 'rua-xe' },
-    { src: '/gallery-bike-06.jpg', label: 'Dưỡng Nhựa, Làm Bóng', category: 've-sinh-sen' },
+    { src: '/gallery-bike-01.jpg', label: 'Rửa Xe Cẩn Thận', category: 'hoan-thien' },
+    { src: '/gallery-bike-06.jpg', label: 'Dưỡng Nhựa, Làm Bóng', category: 'hoan-thien' },
     { src: '/1service-basic-wash.jpg', label: 'Phủ Bọt Tuyết', category: 'rua-xe' },
     { src: '/service-tire-cleaning.jpg', label: 'Sạch Bóng Từng Chi Tiết', category: 'rua-xe' },
     { src: '/service-detailing-engine(2).jpg', label: 'Phủ Bọt Tuyết', category: 'rua-xe' },
