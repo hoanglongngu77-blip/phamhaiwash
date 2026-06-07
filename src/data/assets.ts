@@ -20,10 +20,11 @@ export const assets = {
     { src: '/Petrolube Sport 4T.jpg', label: 'Nhớt Putoline Sport 4R', category: 'thay-nhot' },
     { src: '/oil-change.jpg', label: 'Thăm Nhớt', category: 'thay-nhot' },
     { src: '/workshop-product-shelf-01.jpg', label: 'Dung Dịch Auto Care - Detailing', category: 'thay-nhot' },
+    { src: '/hero-main-bike.jpg', label: 'Full Detailing', category: 've-sinh-sen' },
     { src: '/gallery-bike-03.jpg', label: 'Độ Bóng Xuất Sắc', category: 'hoan-thien' },
     { src: '/gallery-vario.jpg', label: 'Dưỡng Nhựa, Làm Bóng', category: 'rua-xe' },
     { src: '/after-chain.jpg', label: 'Kiểm Tra Sên', category: 've-sinh-sen' },
-    { src: '/hero-main-bike.jpg', label: 'Full Detailing', category: 'hoan-thien' },
+    
     { src: '/service-tire-cleaning-01.jpg', label: 'Sẵn Sàng Bàn Giao', category: 'hoan-thien' }
   ],
   products: {
