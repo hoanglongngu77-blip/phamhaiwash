@@ -28,7 +28,7 @@ export default function Pricing() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-bg-card border border-border-main p-8 rounded-sm hover:-translate-y-1 transition-transform hover:border-border-accent"
+            className="bg-bg-card border border-border-main p-8 rounded-sm hover:-translate-y-1 transition-transform hover:border-border-accent flex flex-col h-full"
           >
             <p className="text-[0.7rem] text-accent font-semibold tracking-[0.15em] uppercase mb-4">Vệ Sinh Cơ Bản</p>
             <h3 className="font-heading font-bold text-3xl leading-[1.1] mb-6">Rửa Xe &<br/>Chăm Sóc</h3>
@@ -59,7 +59,7 @@ export default function Pricing() {
                 <span className="font-semibold text-text-main ml-3 whitespace-nowrap">90–120K</span>
               </li>
             </ul>
-            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 border border-border-main text-text-muted hover:border-accent hover:text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors">
+            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 border border-border-main text-text-muted hover:border-accent hover:text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors mt-auto">
               Đặt Lịch
             </a>
           </motion.div>
@@ -70,7 +70,7 @@ export default function Pricing() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-bg-card border border-accent relative p-8 rounded-sm hover:-translate-y-1 transition-transform overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-accent/10 before:to-transparent before:pointer-events-none"
+            className="bg-bg-card border border-accent relative p-8 rounded-sm hover:-translate-y-1 transition-transform overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-accent/10 before:to-transparent before:pointer-events-none flex flex-col h-full"
           >
             <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-accent text-text-main text-[0.7rem] font-bold tracking-[0.12em] uppercase px-4 py-1.5 rounded-b-sm">
               ⭐ Nổi Bật Nhất
@@ -106,7 +106,7 @@ export default function Pricing() {
                 <span className="font-semibold text-text-main ml-3 whitespace-nowrap">100K</span>
               </li>
             </ul>
-            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 bg-accent hover:bg-accent-hover text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors relative z-10">
+            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 bg-accent hover:bg-accent-hover text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors relative z-10 mt-auto">
               Liên Hệ Ngay
             </a>
           </motion.div>
@@ -117,7 +117,7 @@ export default function Pricing() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-bg-card border border-border-main p-8 rounded-sm hover:-translate-y-1 transition-transform hover:border-border-accent"
+            className="bg-bg-card border border-border-main p-8 rounded-sm hover:-translate-y-1 transition-transform hover:border-border-accent flex flex-col h-full"
           >
             <p className="text-[0.7rem] text-accent font-semibold tracking-[0.15em] uppercase mb-4">Thay Nhớt</p>
             <h3 className="font-heading font-bold text-3xl leading-[1.1] mb-6">Nhớt Xe &<br/>Full Service</h3>
@@ -144,7 +144,7 @@ export default function Pricing() {
                 <span className="font-accent text-accent font-semibold ml-3 whitespace-nowrap">159–179K</span>
               </li>
             </ul>
-            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 border border-border-main text-text-muted hover:border-accent hover:text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors">
+            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 border border-border-main text-text-muted hover:border-accent hover:text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors mt-auto">
               Tư Vấn
             </a>
           </motion.div>
