@@ -148,13 +148,7 @@ export default function Pricing() {
               Tư Vấn
             </a>
           </motion.div>
-
-        </div>
-      </div>
-    </section>
-  );
-}
-{/* Detailing Plan */}
+{/* Bảng giá: Chi Tiết Nhanh */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -171,7 +165,7 @@ export default function Pricing() {
                 <span className="font-semibold text-text-main whitespace-nowrap mt-auto">150–200K</span>
               </li>
               <li className="flex justify-between items-start border-b border-border-main pb-2 gap-4">
-                <span className="text-text-muted">Xe tay gas (tháo cốp rửa chi tiết máy, dây điện, sườn)</span>
+                <span className="text-text-muted">Xe tay ga (tháo cốp rửa chi tiết máy, dây điện, sườn)</span>
                 <span className="font-semibold text-text-main whitespace-nowrap mt-auto">150–200K</span>
               </li>
               <li className="flex justify-between items-start pb-2 gap-4">
@@ -183,3 +177,8 @@ export default function Pricing() {
               Tư Vấn
             </a>
           </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
