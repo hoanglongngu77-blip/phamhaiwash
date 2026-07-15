@@ -20,7 +20,7 @@ export default function Pricing() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
           
           {/* Basic Plan */}
           <motion.div 
@@ -154,3 +154,32 @@ export default function Pricing() {
     </section>
   );
 }
+{/* Detailing Plan */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="bg-bg-card border border-border-main p-8 rounded-sm hover:-translate-y-1 transition-transform hover:border-border-accent flex flex-col h-full"
+          >
+            <p className="text-[0.7rem] text-accent font-semibold tracking-[0.15em] uppercase mb-4">Chi Tiết Máy</p>
+            <h3 className="font-heading font-bold text-3xl leading-[1.1] mb-6">Chi Tiết<br/>Nhanh</h3>
+            
+            <ul className="space-y-4 mb-8 text-sm">
+              <li className="flex justify-between items-start border-b border-border-main pb-2 gap-4">
+                <span className="text-text-muted">Xe số (vệ sinh chi tiết khoang máy)</span>
+                <span className="font-semibold text-text-main whitespace-nowrap mt-auto">150–200K</span>
+              </li>
+              <li className="flex justify-between items-start border-b border-border-main pb-2 gap-4">
+                <span className="text-text-muted">Xe tay gas (tháo cốp rửa chi tiết máy, dây điện, sườn)</span>
+                <span className="font-semibold text-text-main whitespace-nowrap mt-auto">150–200K</span>
+              </li>
+              <li className="flex justify-between items-start pb-2 gap-4">
+                <span className="text-text-muted">Dưỡng dây điện, cao su (áp dụng cho tay ga)</span>
+                <span className="font-semibold text-text-main whitespace-nowrap mt-auto">50–100K</span>
+              </li>
+            </ul>
+            <a href={`tel:${SOCIAL_LINKS.phone}`} className="block w-full text-center py-3.5 border border-border-main text-text-muted hover:border-accent hover:text-text-main text-sm font-semibold tracking-wider uppercase rounded-sm transition-colors mt-auto">
+              Tư Vấn
+            </a>
+          </motion.div>
